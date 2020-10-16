@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Layout from '../../components/Layout'
 export default function Registration() {
     return (
-        <div>
-            <h1>Registration</h1>
-        </div>
+        <Layout>
+                <h1>Registration</h1>
+            </Layout>
     )
 }

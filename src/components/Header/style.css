@@ -1,0 +1,40 @@
+.header {
+    background-color: tomato;
+    display: flex;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 13px;
+}
+
+li NavLink {
+    color: white
+}
+
+.leftMenu {
+    display: flex;
+    color: #fff;
+    margin: 20px;
+}
+
+.leftMenu>li {
+    margin: 0 10px;
+}
+
+.leftMenu>li>a {
+    color: #fff;
+}
+
+.leftMenu>li>a.active {
+    font-weight: bold;
+}

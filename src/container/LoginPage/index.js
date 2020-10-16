@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Layout from '../../components/Layout'
 export default function LoginPage() {
     return (
-        <div>
-            <h1>LoginPage</h1>
-        </div>
+        <Layout>
+        <h1>Login</h1>
+    </Layout>
     )
 }
